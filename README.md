@@ -1,25 +1,23 @@
 # Neural_Networks_API
 
-
-
-# Implemented:
+## Implemented:
 1. Stochastic Gradient Descent
 2. Batch Gradient Descent
 3. Momentum Based Gradient Descent
 4. Nesterov's accelerated gradient descent
-# Loss Functions:
+## Loss Functions:
 1. Mean Squared Error
 2. Categorical Cross_entropy
-# Neuron Types:
+## Neuron Types:
 1. Sigmoid_Layer
 2. Softmax_Layer
 3. Relu_Layer
-# Libraries used:
+## Libraries used:
 1. numpy
 2. pandas
 3. matplotlib
 4. using pickle is optional: It is just used for saving the model object
-# Documentation:
+## Documentation:
 - model.add_Dense(neuron_type,num_neurons) // neuron_type=Sigmoid_Layer, Softmax_Layer
 - model.fit(x_train,y_train,x_test,y_test,n_epoch,batch_size) ----used for training the model
 - model.validate(x,y)----to find the accuracy on validation dataset
