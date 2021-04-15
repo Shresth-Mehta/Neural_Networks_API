@@ -19,8 +19,8 @@
 2. pandas
 3. matplotlib
 //4. using pickle is optional: It is just used for saving the model object
-#Documentation:
-// model.add_Dense(neuron_type,num_neurons) // neuron_type=Sigmoid_Layer,
+# Documentation:
+model.add_Dense(neuron_type,num_neurons) // neuron_type=Sigmoid_Layer,\\
 Softmax_Layer
 // model.fit(x_train,y_train,x_test,y_test,n_epoch,batch_size) ----used for training the model
 // model.validate(x,y)----to find the accuracy on validation dataset
