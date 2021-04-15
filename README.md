@@ -42,8 +42,7 @@
 5. Reducing 1 layer performs better but the model still suffers from bias
 
 
-# **Density Based clustering of applications with
-Noise:**
+# Density Based clustering of applications with Noise:
 - Libraries used: numpy, pandas, matplotlib, sklearn (for creating datasets)
 # Class Dbscan
 - model.fit(list of training data points): fit the data set and train the clustering algorithm
